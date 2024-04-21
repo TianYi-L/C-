@@ -1,0 +1,863 @@
+[Project]
+filename = 实战3.dev
+name = 实战3
+UnitCount = 61
+Type = 1
+Ver = 3
+Includes = 
+Libs = 
+Bins = 
+ResourceIncludes = 
+MakeIncludes = 
+PrivateResource = 实战3_private.rc
+Compiler = 
+CppCompiler = 
+Linker = 
+ResourceCommand = 
+IsCpp = 1
+Icon = app.ico
+ExeOutput = 
+ObjectOutput = 
+LogOutput = 
+LogOutputEnabled = 0
+OverrideOutput = 0
+OverrideOutputName = 
+HostApplication = 
+UseCustomMakefile = 0
+CustomMakefile = 
+UsePrecompiledHeader = 0
+PrecompiledHeader = 
+CommandLine = 
+Folders = 
+IncludeVersionInfo = 0
+SupportXPThemes = 0
+CompilerSet = 1
+StaticLink = 0
+AddCharset = 1
+ExecEncoding = SYSTEM
+Encoding = UTF-8
+ModelType = 0
+ClassBrowserType = 0
+AllowParallelBuilding = false
+ParellelBuildingJobs = 0
+UseUTF8 = 1
+
+
+[Unit1]
+FileName = function/printCenter.cpp
+CompileCpp = 1
+Folder = 源文件/function
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[VersionInfo]
+Major = 1
+Minor = 0
+Release = 0
+Build = 0
+LanguageID = 1033
+CharsetID = 1252
+CompanyName = 
+FileVersion = 0.1
+FileDescription = Developed using the Red Panda C++ IDE
+InternalName = 
+LegalCopyright = 
+LegalTrademarks = 
+OriginalFilename = 实战3.exe
+ProductName = 实战3
+ProductVersion = 0.1.1.1
+AutoIncBuildNr = 0
+SyncProduct = 1
+
+
+[Unit2]
+FileName = shizhan1/extraProject/shizhan1_extra_1.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit3]
+FileName = shizhan8/shizhan8_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan8
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit4]
+FileName = shizhan7/shizhan7.h
+CompileCpp = 0
+Folder = 头文件/shizhan7
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit5]
+FileName = shizhan1/baseProject/shizhan1_base_4.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit6]
+FileName = shizhan2/extraProject/shizhan2_extra_7.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit7]
+FileName = function/get_console_width.cpp
+CompileCpp = 1
+Folder = 源文件/function
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit8]
+FileName = shizhan2/shizhan2_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit9]
+FileName = shizhan2/extraProject/shizhan2_extra_3.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit10]
+FileName = shizhan1/extraProject/shizhan1_extra_7.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit11]
+FileName = function/head/printCenter.h
+CompileCpp = 0
+Folder = 头文件/function/head
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit12]
+FileName = shizhan7/shizhan7_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan7
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit13]
+FileName = shizhan1/baseProject/shizhan1_base_2.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit14]
+FileName = function/head/divider.h
+CompileCpp = 0
+Folder = 头文件/function/head
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit15]
+FileName = shizhan1/extraProject/shizhan1_extra_2.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit16]
+FileName = shizhan1/baseProject/shizhan1_base_5.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit17]
+FileName = shizhan2/shizhan2.h
+CompileCpp = 0
+Folder = 头文件/shizhan2
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit18]
+FileName = shizhan6/shizhan6_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan6
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit19]
+FileName = shizhan3/shizhan3.h
+CompileCpp = 0
+Folder = 头文件/shizhan3
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit20]
+FileName = shizhan2/baseProject/shizhan2_base_3.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit21]
+FileName = function/head/getWidth.h
+CompileCpp = 0
+Folder = 头文件/function/head
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit22]
+FileName = shizhan8/shizhan8.h
+CompileCpp = 0
+Folder = 头文件/shizhan8
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit23]
+FileName = head/shizhan.h
+CompileCpp = 0
+Folder = 头文件/head
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit24]
+FileName = shizhan2/extraProject/shizhan2_extraMain.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit25]
+FileName = shizhan2/baseProject/shizhan2_base_8.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit26]
+FileName = shizhan1/extraProject/shizhan1_extra_5.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit27]
+FileName = shizhan1/shizhan1.h
+CompileCpp = 0
+Folder = 头文件/shizhan1
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit28]
+FileName = shizhan2/baseProject/shizhan2_baseMain.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit29]
+FileName = function/head/printInformation.h
+CompileCpp = 0
+Folder = 头文件/function/head
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit30]
+FileName = shizhan2/extraProject/shizhan2_extra_5.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit31]
+FileName = shizhan1/extraProject/shizhan1_extra_4.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit32]
+FileName = shizhan2/baseProject/shizhan2_base_5.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit33]
+FileName = shizhan4/shizhan4.h
+CompileCpp = 0
+Folder = 头文件/shizhan4
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit34]
+FileName = shizhan2/extraProject/shizhan2_extra_8.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit35]
+FileName = function/divider.cpp
+CompileCpp = 1
+Folder = 源文件/function
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit36]
+FileName = shizhan5/shizhan5.h
+CompileCpp = 0
+Folder = 头文件/shizhan5
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit37]
+FileName = shizhan2/extraProject/shizhan2_extra_6.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit38]
+FileName = shizhan2/extraProject/shizhan2_extra_1.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit39]
+FileName = shizhan2/baseProject/shizhan2_base_6.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit40]
+FileName = shizhan2/baseProject/shizhan2_base_2.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit41]
+FileName = shizhan5/shizhan5_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan5
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit42]
+FileName = shizhan2/extraProject/shizhan2_extra_9.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit43]
+FileName = shizhan1/baseProject/shizhan1_baseMain.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit44]
+FileName = shizhan1/extraProject/shizhan1_extra_3.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit45]
+FileName = main.cpp
+CompileCpp = 1
+Folder = 源文件
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit46]
+FileName = shizhan1/shizhan1_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit47]
+FileName = shizhan2/baseProject/shizhan2_base_7.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit48]
+FileName = shizhan2/baseProject/shizhan2_base_4.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit49]
+FileName = shizhan3/shizhan3_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan3
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit50]
+FileName = shizhan1/baseProject/shizhan1_base_3.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit51]
+FileName = shizhan1/extraProject/shizhan1_extraMain.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit52]
+FileName = shizhan1/extraProject/shizhan1_extra_6.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit53]
+FileName = shizhan1/baseProject/shizhan1_base_1.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan1/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit54]
+FileName = Program_1.cpp
+CompileCpp = 1
+Folder = 源文件
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit55]
+FileName = shizhan2/extraProject/shizhan2_extra_4.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit56]
+FileName = shizhan4/shizhan4_main.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan4
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit57]
+FileName = shizhan2/extraProject/shizhan2_extra_2.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/extraProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit58]
+FileName = shizhan6/shizhan6.h
+CompileCpp = 0
+Folder = 头文件/shizhan6
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit59]
+FileName = function/information.cpp
+CompileCpp = 1
+Folder = 源文件/function
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit60]
+FileName = shizhan2/baseProject/shizhan2_base_1.cpp
+CompileCpp = 1
+Folder = 源文件/shizhan2/baseProject
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit61]
+FileName = head/Program_1.h
+CompileCpp = 0
+Folder = 头文件/head
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[CompilerSettings]
+cc_cmd_opt_debug_info = on
+cc_cmd_opt_std = 
+cc_cmd_opt_use_pipe = on
+cc_cmd_opt_warning_all = on

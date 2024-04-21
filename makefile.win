@@ -1,0 +1,173 @@
+# Project: ʵս3
+# Makefile created by Red Panda C++ 2.25.1
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = ʵս3_private.res
+OBJ      = Program_1.o shizhan1/extraProject/shizhan1_extraMain.o shizhan2/extraProject/shizhan2_extra_1.o shizhan1/extraProject/shizhan1_extra_6.o shizhan1/baseProject/shizhan1_base_3.o shizhan2/extraProject/shizhan2_extraMain.o shizhan2/baseProject/shizhan2_baseMain.o shizhan2/extraProject/shizhan2_extra_8.o shizhan1/extraProject/shizhan1_extra_7.o shizhan1/shizhan1_main.o shizhan6/shizhan6_main.o shizhan1/extraProject/shizhan1_extra_1.o shizhan1/extraProject/shizhan1_extra_2.o shizhan1/extraProject/shizhan1_extra_5.o shizhan1/extraProject/shizhan1_extra_4.o shizhan1/baseProject/shizhan1_base_5.o shizhan4/shizhan4_main.o shizhan2/extraProject/shizhan2_extra_7.o shizhan8/shizhan8_main.o shizhan1/baseProject/shizhan1_base_4.o shizhan2/baseProject/shizhan2_base_5.o shizhan2/extraProject/shizhan2_extra_2.o function/divider.o shizhan2/baseProject/shizhan2_base_4.o shizhan2/baseProject/shizhan2_base_7.o shizhan2/extraProject/shizhan2_extra_5.o shizhan2/extraProject/shizhan2_extra_4.o shizhan1/baseProject/shizhan1_baseMain.o shizhan7/shizhan7_main.o shizhan1/extraProject/shizhan1_extra_3.o shizhan1/baseProject/shizhan1_base_2.o function/printCenter.o shizhan2/baseProject/shizhan2_base_2.o shizhan2/extraProject/shizhan2_extra_6.o shizhan5/shizhan5_main.o function/get_console_width.o shizhan2/baseProject/shizhan2_base_3.o function/information.o shizhan2/shizhan2_main.o shizhan2/extraProject/shizhan2_extra_9.o shizhan3/shizhan3_main.o shizhan2/baseProject/shizhan2_base_6.o shizhan1/baseProject/shizhan1_base_1.o shizhan2/extraProject/shizhan2_extra_3.o main.o shizhan2/baseProject/shizhan2_base_8.o shizhan2/baseProject/shizhan2_base_1.o $(RES)
+LINKOBJ  = Program_1.o shizhan1/extraProject/shizhan1_extraMain.o shizhan2/extraProject/shizhan2_extra_1.o shizhan1/extraProject/shizhan1_extra_6.o shizhan1/baseProject/shizhan1_base_3.o shizhan2/extraProject/shizhan2_extraMain.o shizhan2/baseProject/shizhan2_baseMain.o shizhan2/extraProject/shizhan2_extra_8.o shizhan1/extraProject/shizhan1_extra_7.o shizhan1/shizhan1_main.o shizhan6/shizhan6_main.o shizhan1/extraProject/shizhan1_extra_1.o shizhan1/extraProject/shizhan1_extra_2.o shizhan1/extraProject/shizhan1_extra_5.o shizhan1/extraProject/shizhan1_extra_4.o shizhan1/baseProject/shizhan1_base_5.o shizhan4/shizhan4_main.o shizhan2/extraProject/shizhan2_extra_7.o shizhan8/shizhan8_main.o shizhan1/baseProject/shizhan1_base_4.o shizhan2/baseProject/shizhan2_base_5.o shizhan2/extraProject/shizhan2_extra_2.o function/divider.o shizhan2/baseProject/shizhan2_base_4.o shizhan2/baseProject/shizhan2_base_7.o shizhan2/extraProject/shizhan2_extra_5.o shizhan2/extraProject/shizhan2_extra_4.o shizhan1/baseProject/shizhan1_baseMain.o shizhan7/shizhan7_main.o shizhan1/extraProject/shizhan1_extra_3.o shizhan1/baseProject/shizhan1_base_2.o function/printCenter.o shizhan2/baseProject/shizhan2_base_2.o shizhan2/extraProject/shizhan2_extra_6.o shizhan5/shizhan5_main.o function/get_console_width.o shizhan2/baseProject/shizhan2_base_3.o function/information.o shizhan2/shizhan2_main.o shizhan2/extraProject/shizhan2_extra_9.o shizhan3/shizhan3_main.o shizhan2/baseProject/shizhan2_base_6.o shizhan1/baseProject/shizhan1_base_1.o shizhan2/extraProject/shizhan2_extra_3.o main.o shizhan2/baseProject/shizhan2_base_8.o shizhan2/baseProject/shizhan2_base_1.o ʵս3_private.res
+CLEANOBJ  =  Program_1.o shizhan1\extraProject\shizhan1_extraMain.o shizhan2\extraProject\shizhan2_extra_1.o shizhan1\extraProject\shizhan1_extra_6.o shizhan1\baseProject\shizhan1_base_3.o shizhan2\extraProject\shizhan2_extraMain.o shizhan2\baseProject\shizhan2_baseMain.o shizhan2\extraProject\shizhan2_extra_8.o shizhan1\extraProject\shizhan1_extra_7.o shizhan1\shizhan1_main.o shizhan6\shizhan6_main.o shizhan1\extraProject\shizhan1_extra_1.o shizhan1\extraProject\shizhan1_extra_2.o shizhan1\extraProject\shizhan1_extra_5.o shizhan1\extraProject\shizhan1_extra_4.o shizhan1\baseProject\shizhan1_base_5.o shizhan4\shizhan4_main.o shizhan2\extraProject\shizhan2_extra_7.o shizhan8\shizhan8_main.o shizhan1\baseProject\shizhan1_base_4.o shizhan2\baseProject\shizhan2_base_5.o shizhan2\extraProject\shizhan2_extra_2.o function\divider.o shizhan2\baseProject\shizhan2_base_4.o shizhan2\baseProject\shizhan2_base_7.o shizhan2\extraProject\shizhan2_extra_5.o shizhan2\extraProject\shizhan2_extra_4.o shizhan1\baseProject\shizhan1_baseMain.o shizhan7\shizhan7_main.o shizhan1\extraProject\shizhan1_extra_3.o shizhan1\baseProject\shizhan1_base_2.o function\printCenter.o shizhan2\baseProject\shizhan2_base_2.o shizhan2\extraProject\shizhan2_extra_6.o shizhan5\shizhan5_main.o function\get_console_width.o shizhan2\baseProject\shizhan2_base_3.o function\information.o shizhan2\shizhan2_main.o shizhan2\extraProject\shizhan2_extra_9.o shizhan3\shizhan3_main.o shizhan2\baseProject\shizhan2_base_6.o shizhan1\baseProject\shizhan1_base_1.o shizhan2\extraProject\shizhan2_extra_3.o main.o shizhan2\baseProject\shizhan2_base_8.o shizhan2\baseProject\shizhan2_base_1.o  ʵս3_private.res ʵս3.exe
+LIBS     =  -lwinmm
+INCS     =  
+CXXINCS  =  
+BIN      = ʵս3.exe
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -lwinmm -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -lwinmm -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Program_1.o: Program_1.cpp head/shizhan.h function/head/printInformation.h head/Program_1.h
+	$(CPP) -c Program_1.cpp -o Program_1.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extraMain.o: shizhan1/extraProject/shizhan1_extraMain.cpp shizhan1/shizhan1.h function/head/printInformation.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extraMain.cpp -o shizhan1/extraProject/shizhan1_extraMain.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_1.o: shizhan2/extraProject/shizhan2_extra_1.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_1.cpp -o shizhan2/extraProject/shizhan2_extra_1.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_6.o: shizhan1/extraProject/shizhan1_extra_6.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_6.cpp -o shizhan1/extraProject/shizhan1_extra_6.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/baseProject/shizhan1_base_3.o: shizhan1/baseProject/shizhan1_base_3.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/baseProject/shizhan1_base_3.cpp -o shizhan1/baseProject/shizhan1_base_3.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extraMain.o: shizhan2/extraProject/shizhan2_extraMain.cpp function/head/printInformation.h shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extraMain.cpp -o shizhan2/extraProject/shizhan2_extraMain.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_baseMain.o: shizhan2/baseProject/shizhan2_baseMain.cpp function/head/printInformation.h shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_baseMain.cpp -o shizhan2/baseProject/shizhan2_baseMain.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_8.o: shizhan2/extraProject/shizhan2_extra_8.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_8.cpp -o shizhan2/extraProject/shizhan2_extra_8.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_7.o: shizhan1/extraProject/shizhan1_extra_7.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_7.cpp -o shizhan1/extraProject/shizhan1_extra_7.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/shizhan1_main.o: shizhan1/shizhan1_main.cpp head/shizhan.h shizhan1/shizhan1.h function/head/printInformation.h
+	$(CPP) -c shizhan1/shizhan1_main.cpp -o shizhan1/shizhan1_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan6/shizhan6_main.o: shizhan6/shizhan6_main.cpp head/shizhan.h function/head/printInformation.h shizhan6/shizhan6.h
+	$(CPP) -c shizhan6/shizhan6_main.cpp -o shizhan6/shizhan6_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_1.o: shizhan1/extraProject/shizhan1_extra_1.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_1.cpp -o shizhan1/extraProject/shizhan1_extra_1.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_2.o: shizhan1/extraProject/shizhan1_extra_2.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_2.cpp -o shizhan1/extraProject/shizhan1_extra_2.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_5.o: shizhan1/extraProject/shizhan1_extra_5.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_5.cpp -o shizhan1/extraProject/shizhan1_extra_5.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_4.o: shizhan1/extraProject/shizhan1_extra_4.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_4.cpp -o shizhan1/extraProject/shizhan1_extra_4.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/baseProject/shizhan1_base_5.o: shizhan1/baseProject/shizhan1_base_5.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/baseProject/shizhan1_base_5.cpp -o shizhan1/baseProject/shizhan1_base_5.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan4/shizhan4_main.o: shizhan4/shizhan4_main.cpp head/shizhan.h function/head/printInformation.h shizhan4/shizhan4.h
+	$(CPP) -c shizhan4/shizhan4_main.cpp -o shizhan4/shizhan4_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_7.o: shizhan2/extraProject/shizhan2_extra_7.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_7.cpp -o shizhan2/extraProject/shizhan2_extra_7.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan8/shizhan8_main.o: shizhan8/shizhan8_main.cpp head/shizhan.h function/head/printInformation.h shizhan8/shizhan8.h
+	$(CPP) -c shizhan8/shizhan8_main.cpp -o shizhan8/shizhan8_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/baseProject/shizhan1_base_4.o: shizhan1/baseProject/shizhan1_base_4.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/baseProject/shizhan1_base_4.cpp -o shizhan1/baseProject/shizhan1_base_4.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_5.o: shizhan2/baseProject/shizhan2_base_5.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_5.cpp -o shizhan2/baseProject/shizhan2_base_5.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_2.o: shizhan2/extraProject/shizhan2_extra_2.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_2.cpp -o shizhan2/extraProject/shizhan2_extra_2.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+function/divider.o: function/divider.cpp function/head/getWidth.h function/head/divider.h
+	$(CPP) -c function/divider.cpp -o function/divider.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_4.o: shizhan2/baseProject/shizhan2_base_4.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_4.cpp -o shizhan2/baseProject/shizhan2_base_4.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_7.o: shizhan2/baseProject/shizhan2_base_7.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_7.cpp -o shizhan2/baseProject/shizhan2_base_7.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_5.o: shizhan2/extraProject/shizhan2_extra_5.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_5.cpp -o shizhan2/extraProject/shizhan2_extra_5.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_4.o: shizhan2/extraProject/shizhan2_extra_4.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_4.cpp -o shizhan2/extraProject/shizhan2_extra_4.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/baseProject/shizhan1_baseMain.o: shizhan1/baseProject/shizhan1_baseMain.cpp shizhan1/shizhan1.h function/head/printInformation.h
+	$(CPP) -c shizhan1/baseProject/shizhan1_baseMain.cpp -o shizhan1/baseProject/shizhan1_baseMain.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan7/shizhan7_main.o: shizhan7/shizhan7_main.cpp shizhan7/shizhan7.h head/shizhan.h function/head/printInformation.h
+	$(CPP) -c shizhan7/shizhan7_main.cpp -o shizhan7/shizhan7_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/extraProject/shizhan1_extra_3.o: shizhan1/extraProject/shizhan1_extra_3.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/extraProject/shizhan1_extra_3.cpp -o shizhan1/extraProject/shizhan1_extra_3.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/baseProject/shizhan1_base_2.o: shizhan1/baseProject/shizhan1_base_2.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/baseProject/shizhan1_base_2.cpp -o shizhan1/baseProject/shizhan1_base_2.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+function/printCenter.o: function/printCenter.cpp function/head/getWidth.h function/head/printCenter.h
+	$(CPP) -c function/printCenter.cpp -o function/printCenter.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_2.o: shizhan2/baseProject/shizhan2_base_2.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_2.cpp -o shizhan2/baseProject/shizhan2_base_2.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_6.o: shizhan2/extraProject/shizhan2_extra_6.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_6.cpp -o shizhan2/extraProject/shizhan2_extra_6.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan5/shizhan5_main.o: shizhan5/shizhan5_main.cpp head/shizhan.h shizhan5/shizhan5.h function/head/printInformation.h
+	$(CPP) -c shizhan5/shizhan5_main.cpp -o shizhan5/shizhan5_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+function/get_console_width.o: function/get_console_width.cpp
+	$(CPP) -c function/get_console_width.cpp -o function/get_console_width.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_3.o: shizhan2/baseProject/shizhan2_base_3.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_3.cpp -o shizhan2/baseProject/shizhan2_base_3.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+function/information.o: function/information.cpp function/head/printCenter.h function/head/printInformation.h function/head/divider.h head/Program_1.h
+	$(CPP) -c function/information.cpp -o function/information.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/shizhan2_main.o: shizhan2/shizhan2_main.cpp head/shizhan.h function/head/printInformation.h shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/shizhan2_main.cpp -o shizhan2/shizhan2_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_9.o: shizhan2/extraProject/shizhan2_extra_9.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_9.cpp -o shizhan2/extraProject/shizhan2_extra_9.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan3/shizhan3_main.o: shizhan3/shizhan3_main.cpp head/shizhan.h shizhan3/shizhan3.h function/head/printInformation.h
+	$(CPP) -c shizhan3/shizhan3_main.cpp -o shizhan3/shizhan3_main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_6.o: shizhan2/baseProject/shizhan2_base_6.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_6.cpp -o shizhan2/baseProject/shizhan2_base_6.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan1/baseProject/shizhan1_base_1.o: shizhan1/baseProject/shizhan1_base_1.cpp shizhan1/shizhan1.h
+	$(CPP) -c shizhan1/baseProject/shizhan1_base_1.cpp -o shizhan1/baseProject/shizhan1_base_1.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/extraProject/shizhan2_extra_3.o: shizhan2/extraProject/shizhan2_extra_3.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/extraProject/shizhan2_extra_3.cpp -o shizhan2/extraProject/shizhan2_extra_3.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+main.o: main.cpp function/head/printInformation.h head/Program_1.h
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_8.o: shizhan2/baseProject/shizhan2_base_8.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_8.cpp -o shizhan2/baseProject/shizhan2_base_8.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+shizhan2/baseProject/shizhan2_base_1.o: shizhan2/baseProject/shizhan2_base_1.cpp shizhan2/shizhan2.h
+	$(CPP) -c shizhan2/baseProject/shizhan2_base_1.cpp -o shizhan2/baseProject/shizhan2_base_1.o $(CXXFLAGS)  -finput-charset=UTF-8 -fexec-charset=gbk
+
+ʵս3_private.res: ʵս3_private.rc 
+	$(WINDRES) -i ʵս3_private.rc --input-format=rc -o ʵս3_private.res -O coff $(WINDRESFLAGS) 
+
